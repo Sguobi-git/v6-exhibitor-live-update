@@ -4,8 +4,8 @@ import pandas as pd
 
 def extract_data_multiple_ways(api_key):
     client = ApiClient(api_key)
-    feature_group_id = "a87c8f35c"
-    dataset_id = "1318b5245a"
+    feature_group_id = "4d868f4c"
+    dataset_id = "3dee61c66"
     
     print("🚀 Trying Multiple Data Extraction Methods...")
     
@@ -89,7 +89,7 @@ def extract_data_multiple_ways(api_key):
 def try_chatllm_approach(api_key):
     """Try getting data through ChatLLM since that works in the web interface"""
     client = ApiClient(api_key)
-    project_id = "7573ebd78"  # Your ChatLLM project
+    project_id = "16b4367d2c"  # Your ChatLLM project
     
     try:
         print("\n💬 Method 6: ChatLLM approach...")
