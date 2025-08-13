@@ -5,7 +5,7 @@ import pandas as pd
 class AbacusAIManager:
     def __init__(self, api_key: str):
         self.client = ApiClient(api_key)
-        self.project_id = "7573ebd78"
+        self.project_id = "16b4367d2c"
         
     def get_real_data(self):
         """Get data using the correct API methods"""
